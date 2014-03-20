@@ -41,7 +41,8 @@ displayTrainingFigures(X,Training{1,3})
 % displayData(Theta{length(Theta)}(:, 2:end)');
 
 while(true)
-    bestCost = Training{1,2};
+    % default values, they should get updated to correct values after one complete for loop below: (but not quite sure if correct)
+    bestCost = Training{1,2}; 
     bestTheta = Training{1,3};
     for i=[1]
     % for i=[1:size(Training,1)]
